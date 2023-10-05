@@ -1,17 +1,13 @@
-## Install
+# Verdaccio Server
 
-```sh
-yarn
+## Usage
+
+```
+$ npx @h3aven-labs/verdaccio-server --githubToken ghp...
 ```
 
-## Login to npm using your github token
+## Help
 
-```sh
-npm login --scope @h3aven-labs --auth-type=legacy --registry=https://npm.pkg.github.com
 ```
-
-## To Publish
-
-```sh
-npm publish
+$ npx @h3aven-labs/verdaccio-server --help
 ```

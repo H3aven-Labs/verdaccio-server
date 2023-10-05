@@ -1,8 +1,11 @@
 const path = require("path");
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   mode: "production",
   entry: "./src/index.ts",
+  target: ["node"],
+  externals: [nodeExternals()],
   output: {
     libraryTarget: "commonjs2",
     path: path.join(__dirname, "dist"),
