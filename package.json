@@ -1,6 +1,6 @@
 {
   "name": "@h3aven-labs/verdaccio-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -15,9 +15,6 @@
   },
   "bin": {
     "verdaccio-server": "./dist/index.js"
-  },
-  "engines": {
-    "node": "16.18.1"
   },
   "dependencies": {
     "commander": "^11.0.0",
